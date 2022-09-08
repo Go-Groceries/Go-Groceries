@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_map"
+        android:title="Get location on map"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_phone"
+        android:title="Call shopkeeper"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart"
+        android:title="Shopping Cart"
+        app:showAsAction="always"
+        app:actionLayout="@layout/cart_icon_layout" />
+</menu>
