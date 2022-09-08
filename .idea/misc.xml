@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/drawable-v24/tab_layout_bg.xml" value="0.279" />
         <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/drawable/shape_rect01.xml" value="0.279" />
+        <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/layout/activity_cart.xml" value="0.1265625" />
+        <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/layout/activity_customer_order_details.xml" value="0.1265625" />
         <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/layout/activity_main.xml" value="0.25092592592592594" />
         <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/layout/activity_main_customer.xml" value="0.25092592592592594" />
         <entry key="..\:/Android Studio/Go Groceries/Go Groceries/app/src/main/res/layout/activity_signup.xml" value="0.25092592592592594" />

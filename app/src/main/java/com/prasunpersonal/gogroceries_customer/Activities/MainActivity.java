@@ -31,14 +31,13 @@ import com.prasunpersonal.gogroceries_customer.databinding.ActivityMainBinding;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
     private final ActivityResultLauncher<Intent> launcher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> checkAndRequestPermission());
     private AlertDialog alertDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        com.prasunpersonal.gogroceries_customer.databinding.ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         checkAndRequestPermission();

@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
 
     <application
-        android:name="com.prasunpersonal.gogroceries_customer.App"
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,47 +19,47 @@
         android:theme="@style/Theme.FridgeFortuneGrocery">
 
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.CustomerOrderDetailsActivity"
+            android:name=".Activities.CustomerOrderDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.ProfileActivity"
+            android:name=".Activities.ProfileActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.CustomerDetailsActivity"
+            android:name=".Activities.CustomerDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.CartActivity"
+            android:name=".Activities.CartActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.PDFViewActivity"
+            android:name=".Activities.PDFViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.SignupActivity"
+            android:name=".Activities.SignupActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.LoginActivity"
+            android:name=".Activities.LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.ForgotPasswordActivity"
+            android:name=".Activities.ForgotPasswordActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.ShopDetailsActivity"
+            android:name=".Activities.ShopDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="com.prasunpersonal.gogroceries_customer.Activities.MainCustomerActivity"
+        <activity android:name=".Activities.MainCustomerActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
 
         <activity
-            android:name="com.prasunpersonal.gogroceries_customer.Activities.MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
